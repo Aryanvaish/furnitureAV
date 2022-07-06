@@ -1,0 +1,1391 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.backG{
+    background-image: url(../images/white-plaster-texture.jpg);
+    /* height: 100%;
+    width: 100%; */
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.first-row{
+    display: flex;
+    margin: 2rem 0 0 0;
+}
+
+.first-row h1{
+    font-size: 7.5rem;
+    color: #000;
+    font-family: "Linux Libertine GB";
+}
+
+.seat-coll{
+    display: flex;
+    flex-direction: column;
+    margin: .7rem 0 0 .5rem;
+}
+
+.seat-coll h2{
+    font-size: 2.4rem;
+    color: #ec3d3d;
+    font-weight: bold;
+    font-family: "Bell MT Bold";
+    margin: 0;
+}
+
+.seat-coll h3{
+    font-size: 2.4rem;
+    color: #ec3d3d;
+    font-weight: bold;
+    font-family: "Bell MT Bold";
+    margin: -.3rem 0 0 0 ;
+}
+
+.RSC{
+    width: 2.1rem;
+    height: 5rem;
+    background-color: #9b9999;
+    margin: 1.8rem 0 0 0.2rem;
+}
+
+.RSC h1{
+    font-size: 1.3rem;
+    color: #585152;
+    font-weight: bold;
+    font-family: "Britannic Bold";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: .1rem 0 0 0;
+}
+
+.first-row h2{
+    margin: 1.4rem 0 0 0.2rem;
+}
+
+.sec-row h1{
+    font-size: 1.2rem;
+    color: #000;
+    font-family: "Arial";
+    margin: -1.6rem 0 0 1.1rem;
+}
+
+.thi-row{
+    display: flex;
+}
+
+.left-arr{
+    width: 1rem;
+    height: .6rem;
+    background-color: #ec3d3d;
+    margin: -.2rem 0 0 0;
+}
+
+.mid-line{
+    width: 46.4rem;
+    height: .2rem;
+    background-color: #ec3d3d;
+}
+
+.rig-arr{
+    width: 1rem;
+    height: .6rem;
+    background-color: #ec3d3d;
+    margin: -.2rem 0 0 0;
+}
+
+.nav-main{
+    width: 108.7rem;
+    height: 10.5rem;
+    border-radius: .5rem;
+    filter: drop-shadow(3.381px 7.25px 3.5px rgba(0,0,0,0.23));
+    margin: 4rem auto 0 auto;
+    background-color: #f8f6f6;
+}
+
+.nav-main ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-main ul li{
+    display: flex;
+    margin: 4.5rem 0 0 0;    
+}
+
+.nav-main ul li a:hover{
+    color: #db3e3e;
+}
+
+.nav-main ul li a{
+    font-size: 1.8rem;
+    color: #d49090;
+    font-weight: bold;
+    font-family: "Arial";
+    text-decoration: none;
+}
+
+.twin-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chair-first{
+    display: flex;
+    width: 65.9rem;
+    height: 40.7rem;
+    border-radius: .4rem;
+    filter: drop-shadow(3.381px 7.25px 3.5px rgba(0,0,0,0.23));
+    background-color: #ffffff;
+    box-sizing: border-box;
+    margin: 5rem 4rem 0 0.1rem;
+}
+
+.left-chair img{
+    width: 26.6rem;
+    height: 25.7rem;
+    margin: 10rem 0 0 2rem;
+}
+
+.right-chair h1{
+    font-size: 2rem;
+    color: #000;
+    font-weight: bold;
+    font-family: "Bell MT Bold";
+    margin: 5rem 2rem 2.6rem 0;
+}
+
+.right-chair h2{
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    color: #000;
+    font-family: "Arial";
+    margin: 1.2rem 2rem 0 0;
+}
+
+.query-box{
+    width: 39rem;
+    height: 35.9rem;
+    border-radius: .5rem;
+    filter: drop-shadow(3.381px 7.25px 3.5px rgba(0,0,0,0.23));
+    background-color: #ffffff;
+}
+
+.query-box h1{
+    font-size: 1.8rem;
+    line-height: 1.2rem;
+    color: #000;
+    font-weight: bold;  
+    font-family: "Bell MT Bold";
+    margin: 2rem 0 0 2.5rem;
+}
+
+.name-text{
+    font-size: 1.5rem;
+    line-height: 1.2prem;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: "Bell MT Bold";
+    width: 33.7rem;
+    height: 2.1rem;
+    background-color: #d49090;
+    margin: 2rem 0 0 2.5rem;
+}
+
+.mail-inp{
+    font-size: 1.5rem;
+    line-height: 1.2prem;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: "Bell MT Bold";
+    width: 33.7rem;
+    height: 2.1rem;
+    background-color: #d49090;
+    margin: 1rem 0 0 2.5rem;
+}
+
+.num-inp{
+    font-size: 1.5rem;
+    line-height: 1.2prem;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: "Bell MT Bold";
+    width: 33.7rem;
+    height: 2.1rem;
+    background-color: #d49090;
+    margin: 1rem 0 0 2.5rem;
+}
+
+.texta{
+    font-size: 1.5rem;
+    line-height: 1.2prem;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: "Bell MT Bold";
+    width: 33.7rem;
+    height: 8.8rem;
+    background-color: #d49090;
+    margin: 1rem 0 0 2.5rem;
+}
+
+.capta{
+    display: flex;
+}
+
+.cap-text{
+    width: 6.9rem;
+    height: 2rem;
+    background-color: #fcf0f0;
+    margin: 1rem 0 0 2.5rem;
+}
+
+.cap-text h1{
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    color: #727abd;
+    font-family: "Bradley Hand IT C";
+    margin: .3rem .5rem;
+}
+
+.capta h2{
+    font-size: 1.4rem;
+    color: #444fbb;
+    font-weight: bold;
+    font-family: "Bodoni";
+    margin: 1.3rem 0 0 .7rem;
+}
+
+.captaw{
+    width: 33.7rem;
+    height: 1.8rem;
+    background-color: #d49090;
+    margin: 1.2rem 0 0 2.5rem;
+}
+
+.send-btn{
+    font-size: 1.2rem;
+    color: #d08383;
+    font-weight: bold;
+    font-family: "Bodoni";
+    width: 5.8rem;
+    height: 2rem;
+    border-radius: .2rem;
+    background-color: #f6e6e6;
+    margin: 1rem 0 0 2.5rem;
+}
+
+.catalog-sec{
+    width: 108.2rem;
+    height: 34.9rem;
+    border-radius: .6rem;
+    filter: drop-shadow(3.381px 7.25px 3.5px rgba(0,0,0,0.23));
+    background-color: #ffffff;
+    display: flex;
+    margin: 2rem auto 0 auto;
+    box-sizing: border-box;
+}
+
+.new-laun{
+    display: flex;
+}
+
+.newlaun-cont h1{
+    font-size: 1.6rem;
+    color: #060606;
+    font-weight: bold;
+    font-family: "Bell MT Bold";
+    margin: 3rem 4rem;
+}
+
+.newlaun-cont img{
+    height: 17.8rem;
+    width: 20.6rem;
+    margin: 0 4rem;
+}
+ 
+.see-allp{
+    width: 15.4rem;
+    height: 2.7rem;
+    background-color: #000;
+    margin: 2rem 6.5rem;
+}
+
+.see-allp a{
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Arial";
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    padding-top: .8rem;
+}
+
+.linebar1{
+    width: .2rem;
+    height: 34.9rem;
+    background-color: #cababa;
+}
+
+.cont-us{
+    display: flex;
+}
+
+.conta-cont h1{
+    font-size: 1.6rem;
+    color: #060606;
+    font-weight: bold;
+    font-family: "Bell MT Bold";
+    margin: 3rem 8rem 4rem 8rem;
+}
+
+.conta-cont h2{
+    font-size: 1.2rem;
+    color: #060606;
+    font-weight: bold;
+    font-family: "Arial";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conta-cont a{
+    font-size: 1.2rem;
+    color: #c443e9;
+    font-weight: bold;
+    font-family: "Arial";
+    display: flex;
+    justify-content: center;
+}
+
+.more-det{
+    width: 15.4rem;
+    height: 2.7rem;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    margin: 2rem auto;
+}
+
+.more-det a{
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: bold;
+    font-family: "Arial";
+    text-decoration: none;
+    padding-top: .6rem;
+}
+
+.linebar2{
+    width: .2rem;
+    height: 34.9rem;
+    background-color: #cababa;
+}
+
+.cha-cat{
+    display: flex;
+}
+
+.cha-cont h1{
+    font-size: 1.6rem;
+    line-height: 1.2rem;
+    color: #060606;
+    font-weight: bold;
+    font-family: "Bell MT Bold";
+    margin: 3rem 6rem 4rem 6rem;
+}
+
+.cat-pic1{
+    width: 15.3rem;
+    height: 18.2rem;
+    background-color: #060606;
+    margin: 2rem auto;
+}
+
+.cat-pic1 img{
+    height: 17.2rem;
+    width: 13.6rem;
+    margin: .5rem .7rem;
+}
+
+.dow-catal{
+    width: 15.4rem;
+    height: 2.7rem;
+    background-color: #000;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.dow-catal a{
+    font-size: 1.2rem;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Arial";
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding-top: .6rem;
+    text-decoration: none;
+}
+
+.linebar3{
+    width: .2rem;
+    height: 34.9rem;
+    background-color: #cababa;
+}
+
+.cha-cat2{
+    display: flex;
+}
+
+.cha-cont2 h1{
+    font-size: 1.6rem;
+    line-height: 1.2rem;
+    color: #060606;
+    font-weight: bold;
+    font-family: "Bell MT Bold";
+    margin: 3rem 6rem 4rem 6rem;
+}
+
+.cat-pic2{
+    width: 15.3rem;
+    height: 18.2rem;
+    background-color: #060606;
+    margin: 2rem auto;
+}
+
+.cat-pic2 img{
+    height: 17.2rem;
+    width: 13.6rem;
+    margin: .5rem .7rem;
+}
+
+.dow-catal2{
+    width: 15.4rem;
+    height: 2.7rem;
+    background-color: #000;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.dow-catal2 a{
+    font-size: 1.2rem;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Arial";
+    display: flex;
+    justify-content: center;
+    padding-top: .6rem;
+    text-decoration: none;
+}
+
+.nav-main2{
+    width: 108.7rem;
+    height: 10.5rem;
+    border-radius: .5rem;
+    filter: drop-shadow(3.381px 7.25px 3.5px rgba(0,0,0,0.23));
+    margin: 4rem auto 0 auto;
+    background-color: #f8f6f6;
+}
+
+.nav-main2 ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-main2 ul li{
+    display: flex;
+    margin: 4.5rem 0 0 0;    
+}
+
+.nav-main2 ul li a:hover{
+    color: #db3e3e;
+}
+
+.nav-main2 ul li a{
+    font-size: 1.8rem;
+    color: #d49090;
+    font-weight: bold;
+    font-family: "Arial";
+    text-decoration: none;
+}
+
+.branches{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto 0 auto;
+}
+
+.branches ul{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: .5rem 0 0 0;
+}
+
+.branches ul li{
+    display: flex;
+    padding: .7rem;
+}
+
+.branches ul li a{
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    color: #5a5555;
+    font-weight: bold;
+    font-family: "Arial";
+    text-decoration: none;
+    list-style: none;
+} 
+
+.branches ul li a:hover{
+    color: #c90c0c;
+} 
+
+.copyr h1{
+    font-size: 1.6rem;
+    color: #272525;
+    font-weight: bold;
+    font-family: "Arial";
+    margin: 2rem 0 0.5rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.copyr h2{
+    font-size: 1.4rem;
+    color: #272525;
+    font-weight: bold;
+    font-family: "Arial";
+    display: flex;
+    justify-content: center;
+    padding: 0 0 4rem 0;
+}
+
+@media (max-width : 1200px){
+    .nav-main{
+        width: 78.7rem;
+        height: 7rem;
+        margin: 3rem auto 0 auto;
+    }
+  
+    .nav-main ul li{
+        display: flex;
+        margin: 2.9rem 0 0 0;    
+    }
+      
+    .nav-main ul li a{
+        font-size: 1.4rem;
+    }
+
+    .chair-first{
+        width: 50rem;
+        height: 30.7rem;
+        margin: 4rem 4rem 0 0.1rem;
+    }
+    
+    .left-chair img{
+        width: 18.6rem;
+        height: 18.7rem;
+        margin: 6rem 0 0 2rem;
+    }
+    
+    .right-chair h1{
+        font-size: 1.7rem;
+        margin: 1rem 1rem 1rem 0;
+    }
+    
+    .right-chair h2{
+        font-size: .9rem;
+        margin: .6rem 1.3rem 0 0;
+    }
+    
+    .query-box{
+        width: 24.6rem;
+        height: 30.9rem;
+        margin: 4rem 0 0 0;
+    }
+    
+    .query-box h1{
+        font-size: 1.4rem;
+        margin: 2rem 0 0 1.5rem;
+    }
+    
+    .name-text{
+        font-size: 1.2rem;
+        width: 21rem;
+        height: 2.1rem;
+        margin: 2rem 0 0 1.5rem;
+    }
+    
+    .mail-inp{
+        font-size: 1.2rem;
+        width: 21rem;
+        height: 2.1rem;
+        margin: 1rem 0 0 1.5rem;
+    }
+    
+    .num-inp{
+        font-size: 1.2rem;
+        width: 21rem;
+        height: 2.1rem;
+        margin: 1rem 0 0 1.5rem;
+    }
+    
+    .texta{
+        font-size: 1.2rem;
+        width: 21rem;
+        height: 5.2rem;
+        margin: 1rem 0 0 1.5rem;
+    }
+    
+    .cap-text{
+        width: 5rem;
+        height: 1.8rem;
+        margin: 1rem 0 0 1.5rem;
+    }
+    
+    .cap-text h1{
+        font-size: 1rem;
+        margin: .3rem .5rem;
+    }
+    
+    .capta h2{
+        font-size: 1rem;
+    }
+    
+    .captaw{
+        width: 21rem;
+        height: 1.6rem;
+        margin: 1.2rem 0 0 1.5rem;
+    }
+    
+    .send-btn{
+        font-size: 1rem;
+        width: 5rem;
+        height: 1.7rem;
+        margin: .8rem 0 0 1.5rem;
+    }
+
+    .catalog-sec{
+        width: 78.8rem;
+        height: 25rem;
+        margin: 2.5rem auto 0 auto;
+    }
+      
+    .newlaun-cont h1{
+        font-size: 1.2rem;
+        margin: 3rem 0rem 2rem 2rem;
+    }
+    
+    .newlaun-cont img{
+        height: 10.8rem;
+        width: 12.6rem;
+        margin: 0 3rem;
+    }
+     
+    .see-allp{
+        width: 12rem;
+        height: 2.2rem;
+        margin: 2rem 0 0 3rem;
+    }
+    
+    .see-allp a{
+        font-size: 1rem;
+        padding-top: .6rem;
+    }
+    
+    .linebar1{
+        height: 25rem;
+    }
+    
+    .conta-cont h1{
+        font-size: 1.2rem;
+        margin: 3rem 6rem 2rem 6rem;
+        text-align: center;
+    }
+    
+    .conta-cont h2{
+        font-size: 1rem;
+    }
+    
+    .conta-cont a{
+        font-size: 1.1rem;
+    }
+    
+    .more-det{
+        width: 12rem;
+        height: 2.2rem;
+        margin: 2rem auto;
+    }
+    
+    .more-det a{
+        font-size: 1rem;
+        padding-top: .5rem;
+    }
+    
+    .linebar2{
+        height: 25rem;
+    }
+    
+    .cha-cont h1{
+        font-size: 1.2rem;
+        margin: 3rem 6rem 2.5rem 6rem;
+        text-align: center;
+    }
+    
+    .cat-pic1{
+        width: 10rem;
+        height: 11rem;
+        margin: 2rem auto;
+    }
+    
+    .cat-pic1 img{
+        height: 9.8rem;
+        width: 9rem;
+        margin: .5rem .5rem;
+    }
+    
+    .dow-catal{
+        width: 11rem;
+        height: 2rem;
+        margin: 0 auto;
+    }
+    
+    .dow-catal a{
+        font-size: .8rem;
+        padding-top: .6rem;
+    }
+    
+    .linebar3{
+        height: 25rem;
+    }
+    .cha-cont2 h1{
+        font-size: 1.2rem;
+        margin: 3rem 6rem 2.5rem 6rem;
+        text-align: center;
+    }
+    
+    .cat-pic2{
+        width: 10rem;
+        height: 11rem;
+        margin: 2rem auto;
+    }
+    
+    .cat-pic2 img{
+        height: 9.8rem;
+        width: 9rem;
+        margin: .5rem .5rem;
+    }
+    
+    .dow-catal2{
+        width: 11rem;
+        height: 2rem;
+        margin: 0 auto;
+    }
+    
+    .dow-catal2 a{
+        font-size: .8rem;
+        padding-top: .6rem;
+    }
+
+    .nav-main2{
+        width: 78.7rem;
+        height: 7rem;
+        margin: 3rem auto 0 auto;
+    }
+  
+    .nav-main2 ul li{
+        display: flex;
+        margin: 2.9rem 0 0 0;    
+    }
+      
+    .nav-main2 ul li a{
+        font-size: 1.4rem;
+    }
+
+    .branches{
+        width: 67%;
+        margin: 2rem auto 0 auto;
+    }
+       
+    .branches ul li{
+        padding: .7rem;
+    }
+    
+    .branches ul li a{
+        font-size: 1.2rem;
+    } 
+
+    .copyr h1{
+        font-size: 1rem;
+        margin: 1rem 0 0.2rem 0;
+    }
+    
+    .copyr h2{
+        font-size: 1.1rem;
+        padding: 0 0 4rem 0;
+    }
+   
+}
+
+@media (max-width : 840px){
+    .first-row{
+        margin: 1rem 0 0 0;
+    }
+    
+    .first-row h1{
+        font-size: 5rem;
+    }
+    
+    .seat-coll{
+        margin: .3rem 0 0 .5rem;
+    }
+    
+    .seat-coll h2{
+        font-size: 1.4rem;
+        padding: 0 0 .3rem 0;
+    }
+    
+    .seat-coll h3{
+        font-size: 1.4rem;
+        margin: -.3rem 0 0 0 ;
+    }
+    
+    .RSC{
+        width: 1.6rem;
+        height: 3rem;
+    }
+    
+    .RSC h1{
+        font-size: .7rem;
+    }
+    
+    .sec-row h1{
+        font-size: 1rem;
+        margin: -1.2rem 0 .5rem 4.8em;
+    }
+    
+    .left-arr{
+        width: 1rem;
+        height: .6rem;
+    }
+    
+    .mid-line{
+        width: 34.4rem;
+        height: .2rem;
+    }
+    
+    .rig-arr{
+        width: 1rem;
+        height: .6rem;
+    }
+
+    .nav-main{
+        width: 48rem;
+        height: 5rem;
+        margin: 3rem auto 0 auto;
+    }
+  
+    .nav-main ul li{
+        margin: 2.1rem 0 0 0;    
+    }
+      
+    .nav-main ul li a{
+        font-size: .8rem;
+    }
+
+    .twin-cont{
+        display: flex;
+        flex-direction: column;
+    }
+    .chair-first{
+        width: 50rem;
+        height: 30.7rem;
+        margin: 4rem 0 0 0.1rem;
+    }
+
+    .catalog-sec{
+        width: 50rem;
+        height: 20rem;
+    }
+      
+    .newlaun-cont h1{
+        font-size: .8rem;
+        margin: 3rem 0rem 2rem 1.5rem;
+    }
+    
+    .newlaun-cont img{
+        height: 7.8rem;
+        width: 8.6rem;
+        margin: 0 2rem;
+    }
+     
+    .see-allp{
+        width: 4rem;
+        height: 1rem;
+        margin: 2rem 0 0 4rem;
+    }
+    
+    .see-allp a{
+        font-size: .6rem;
+        padding-top: 0;
+        padding-left: .6rem;
+    }
+    
+    .linebar1{
+        height: 20rem;
+    }
+    
+    .conta-cont h1{
+        font-size: .8rem;
+        margin: 3rem 4rem 2rem 4rem;
+        text-align: center;
+    }
+    
+    .conta-cont h2{
+        font-size: .7rem;
+    }
+    
+    .conta-cont a{
+        font-size: .8rem;
+    }
+    
+    .more-det{
+        width: 4rem;
+        height: 1rem;
+        margin: 2rem auto;
+    }
+    
+    .more-det a{
+        font-size: .4rem;
+        padding-top: .2rem;
+    }
+    
+    .linebar2{
+        height: 20rem;
+    }
+    
+    .cha-cont h1{
+        font-size: .8rem;
+        margin: 3rem 4rem 1.6rem 4rem;
+    }
+    
+    .cat-pic1{
+        width: 8rem;
+        height: 8rem;
+        margin: 1rem auto;
+    }
+    
+    .cat-pic1 img{
+        height: 7.2rem;
+        width: 7rem;
+        margin: .5rem .5rem;
+    }
+    
+    .dow-catal{
+        width: 4rem;
+        height: 1rem;
+        margin: 0 auto;
+    }
+    
+    .dow-catal a{
+        font-size: .3rem;
+        padding-top: .2rem;
+    }
+    
+    .linebar3{
+        height: 20rem;
+    }
+
+    .cha-cont2 h1{
+        font-size: .8rem;
+        margin: 3rem 4rem 1.6rem 4rem;
+    }
+    
+    .cat-pic2{
+        width: 8rem;
+        height: 8rem;
+        margin: 1rem auto;
+    }
+    
+    .cat-pic2 img{
+        height: 7.2rem;
+        width: 7rem;
+        margin: .5rem .5rem;
+    }
+    
+    .dow-catal2{
+        width: 4rem;
+        height: 1rem;
+        margin: 0 auto;
+    }
+    
+    .dow-catal2 a{
+        font-size: .3rem;
+        padding-top: .2rem;
+    }
+
+    .nav-main2{
+        width: 48rem;
+        height: 5rem;
+        margin: 3rem auto 0 auto;
+    }
+  
+    .nav-main2 ul li{
+        margin: 2.1rem 0 0 0;    
+    }
+      
+    .nav-main2 ul li a{
+        font-size: .8rem;
+    }
+
+    .branches{
+        width: 50%;
+        margin: 1rem auto 0 auto;
+    }
+       
+    .branches ul li{
+        padding: .4rem;
+    }
+    
+    .branches ul li a{
+        font-size: .8rem;
+    } 
+
+    .copyr h1{
+        font-size: .7rem;
+        margin: .5rem 0 0.2rem 0;
+    }
+    
+    .copyr h2{
+        font-size: .6rem;
+    }
+
+
+}
+
+@media (max-width : 560px){
+
+    .first-row{
+        margin: 1.5rem 0 0 0;
+    }
+    
+    .first-row h1{
+        font-size: 3.5rem;
+    }
+
+    
+    .seat-coll{
+        margin: 0rem 0 0 .5rem;
+    }
+
+    .first-row h2 {
+        margin: .5rem 0 0 0.2rem;
+        font-size: .8rem;
+    }
+    
+    .seat-coll h2{
+        font-size: 1rem;
+        padding: 0 0 .3rem 0;
+        margin: .8rem 0 0 0.2rem;
+    }
+    
+    .seat-coll h3{
+        font-size: 1rem;
+        margin: -.3rem 0 0 0 ;
+    }
+    
+    .RSC{
+        width: 1.5rem;
+        height: 2.5rem;
+        margin: .6rem 0 0 0.2rem;
+    }
+    
+    .RSC h1{
+        font-size: .6rem;
+    }
+
+   
+    .sec-row h1{
+        font-size: .8rem;
+        margin: -1rem 0 .3rem 4.2em;
+    }
+    
+    .mid-line{
+        width: 23.4rem;
+        height: .2rem;
+    }
+
+    .nav-main{
+        width: 30rem;
+        height: 3.5rem;
+        margin: 1.5rem auto 0 auto;
+    }
+  
+    .nav-main ul li{
+        margin: 1.5rem 0 0 0;    
+    }
+      
+    .nav-main ul li a{
+        font-size: .6rem;
+    }
+
+    .chair-first{
+        width: 30rem;
+        height: 41.5rem;
+        margin: 2rem 0 0 0.1rem;
+        flex-direction: column;
+    }
+    
+    .left-chair img{
+        width: 15.6rem;
+        height: 15.7rem;
+        margin: 0 auto;
+        display: flex;        
+    }
+    
+    .right-chair h1{
+        font-size: 1.3rem;
+        line-height: 1.3rem;
+        margin: .2rem auto;
+        width: 80%;
+    }
+    
+    .right-chair h2{
+        line-height: .9rem;
+        font-size: .9rem;
+        margin: .8rem auto 0 auto;
+        width: 80%;
+    }
+
+    .query-box{
+        margin: 2rem 0 0 0;
+    }
+
+    .catalog-sec{
+        width: 26rem;
+        height: 99rem;
+        display: flex;
+        flex-direction: column;
+        margin: 2rem auto 0 auto;
+    }
+
+    .new-laun{
+        flex-direction: column;
+    }
+      
+    .newlaun-cont h1{
+        font-size: 1.3rem;
+        margin: 3rem 4.5rem;
+    }
+    
+    .newlaun-cont img{
+        height: 10.8rem;
+        width: 10.6rem;
+        margin: 0 0 0 7.2rem;
+    }
+     
+    .see-allp{
+        width: 8.4rem;
+        height: 1.5rem;
+        margin: 2rem 0 0 8.5rem;
+    }
+    
+    .see-allp a{
+        font-size: 1rem;
+        padding-top: .3rem;
+        padding-left: 2rem;
+    }
+    
+    .linebar1{
+        width: 26rem;
+        height: .2rem;
+        margin: 2.5rem 0 0 0;
+    }
+    
+    .cont-us{
+        flex-direction: column;
+    }
+    
+    .conta-cont h1{
+        font-size: 1.3rem;
+        margin: 3rem 8rem 1rem 8rem;
+    }
+    
+    .conta-cont h2{
+        font-size: 1rem;
+    }
+    
+    .conta-cont a{
+        font-size: 1.1rem;
+    }
+    
+    .more-det{
+        width: 8.4rem;
+        height: 1.5rem;
+        margin: 2rem 0 0 8.5rem;
+    }
+    
+    .more-det a{
+        font-size: 1rem;
+        padding-top: .3rem;
+        padding-left: 2.8rem;
+    }
+    
+    .linebar2{
+        width: 26rem;
+        height: .2rem;
+        margin: 2.5rem 0 0 0;
+    }
+    
+    .cha-cat{
+        flex-direction: column;
+    }
+    
+    .cha-cont h1{
+        font-size: 1.3rem;
+        margin: 3rem 8rem 3rem 8rem;
+    }
+    
+    .cat-pic1{
+        width: 10.3rem;
+        height: 13.2rem;
+    }
+    
+    .cat-pic1 img{
+        height: 12.2rem;
+        width: 9rem;
+    }
+    
+    .dow-catal{
+        width: 8.4rem;
+        height: 1.5rem;
+        margin: 2rem 0 0 9rem;
+    }
+    
+    .dow-catal a{
+        font-size: 1rem;
+        padding-top: .3rem;
+        padding-left: 1.3rem;
+    }
+    
+    .linebar3{
+        width: 26rem;
+        height: .2rem;
+        margin: 2.5rem 0 0 0;
+    }
+    
+    .cha-cat2{
+        flex-direction: column;
+    }
+    
+    .cha-cont2 h1{
+        font-size: 1.3rem;
+        margin: 3rem 8rem 3rem 8rem;
+    }
+    
+    .cat-pic2{
+        width: 10.3rem;
+        height: 13.2rem;
+    }
+    
+    .cat-pic2 img{
+        height: 12.2rem;
+        width: 9rem;
+    }
+    
+    .dow-catal2{
+        width: 8.4rem;
+        height: 1.5rem;
+        margin: 2rem 0 0 8.8rem;
+    }
+    
+    .dow-catal2 a{
+        font-size: 1rem;
+        padding-top: .3rem;
+        padding-left: 1.3rem;
+    }
+
+    .nav-main2{
+        width: 15rem;
+        height: 31.5rem;
+        margin: 3rem auto 0 auto;
+    }
+
+    .nav-main2 ul{
+        flex-direction: column;
+        margin: 2rem 0 0;
+    }
+
+    .nav-main2 ul li{
+        margin: 1.2rem auto;
+    }
+
+    .nav-main2 ul li a{
+        font-size: 1.2rem;
+    }
+
+    .branches{
+        margin: 1.2rem auto 0 auto;
+        width: 60%;
+    }
+       
+    .branches ul li{
+        padding: .1rem;
+    }
+    
+    .branches ul li a{
+        font-size: .7rem;
+    } 
+
+    .copyr h1{
+        font-size: .7rem;
+        margin: .2rem 0 0.2rem 0;
+    }
+    
+    .copyr h2{
+        font-size: .7rem;
+        text-align: center;
+        padding: .1rem 0 1rem 0;
+    }
+
+}
+
+
