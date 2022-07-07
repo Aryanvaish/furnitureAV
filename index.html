@@ -15,6 +15,7 @@
     <div class="container">
         <div class="banner">
 
+         <div class="regent-logo">
           <div class="first-row">
               <h1>Regent</h1>
               <div class="seat-coll">
@@ -38,6 +39,15 @@
               <div class="mid-line"></div>
               <div class="rig-arr"></div>
             </div>
+          </div>
+
+          <div id="navigation">
+            <div id="menu" onclick="onClickMenu()">
+              <div id="bar1" class="bar"></div>
+              <div id="bar2" class="bar"></div>
+              <div id="bar3" class="bar"></div>
+            </div>
+          </div>
 
         </div>
     </div>
@@ -45,7 +55,7 @@
 
  <nav class="container-fluid">
     <div class="container">
-      <div class="nav-main">
+      <div id="nav-main" class="nav-main">
         <ul>
           <li><a href="#">Home</a></li>  
           <li><a href="#">PROFILE</a></li>  
@@ -205,11 +215,15 @@
        </div>
     </div>
 </footer>
-
-
-
 </div>
           
-    
+
+<script>
+function onClickMenu(){
+  document.getElementById("menu").classList.toggle("icon");
+  document.getElementById("nav-main").classList.toggle("change");
+}
+</script>
+
 </body>
 </html>
