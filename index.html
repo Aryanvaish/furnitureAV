@@ -41,12 +41,8 @@
             </div>
           </div>
 
-          <div id="navigation">
-            <div id="menu" onclick="onClickMenu()">
-              <div id="bar1" class="bar"></div>
-              <div id="bar2" class="bar"></div>
-              <div id="bar3" class="bar"></div>
-            </div>
+          <div class="menu-btn">
+            <span onclick="myfunction()">&#9776;</span>
           </div>
 
         </div>
@@ -219,9 +215,16 @@
           
 
 <script>
-function onClickMenu(){
-  document.getElementById("menu").classList.toggle("icon");
-  document.getElementById("nav-main").classList.toggle("change");
+function myfunction(){
+    var x = document.getElementById("nav-main");
+
+    if(x.style.display == "block")
+    {
+      x.style.display = "none";
+    }
+    else{
+      x.style.display = "block";
+    }
 }
 </script>
 
